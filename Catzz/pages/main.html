@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="loadContent('home')">首页</a></li>
+            <li><a href="#" onclick="loadContent('live')">Live</a></li>
+            <li><a href="#" onclick="loadContent('messages')">留言板</a></li>
+            <li><a href="#" onclick="loadContent('about')">关于网站</a></li>
+        </ul>
+    </nav>
+
+    <div id="content-container">
+        <!-- 这里将显示内容 -->
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
